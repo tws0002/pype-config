@@ -42,7 +42,8 @@
             {"python_3": "Python 3"},
             {"python_2": "Python 2"},
             {"premiere_2019": "Premiere Pro 2019"},
-            {"aport": "Aport Server"}
+            {"premiere_2020": "Premiere Pro 2020"},
+            {"resolve_16": "BM DaVinci Resolve 16"}
         ]
     }
 }, {
@@ -62,7 +63,6 @@
     "config": {
         "multiselect": false,
         "data": [
-            {"": "-"},
             {"test": "Test"},
             {"wip": "WIP"},
             {"final": "Final"}
@@ -156,20 +156,5 @@
     "is_hierarchical": true,
     "group": "avalon",
     "default": null
-}, {
-    "label": "intent",
-    "key": "intent",
-    "group": "avalon",
-    "entity_type": "assetversion",
-    "type": "enumerator",
-    "config": {
-        "multiselect": false,
-        "data": [
-            {"": ""},
-            {"TEST": "TEST"},
-            {"WIP": "WIP"},
-            {"FINAL": "FINAL"}
-        ]
-    }
 }
 ]
